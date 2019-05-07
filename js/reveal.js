@@ -50,7 +50,7 @@
 			maxScale: 2.0,
 
 			// Display presentation control arrows
-			controls: true,
+			controls: false,
 
 			// Help the user learn the controls by providing hints, for example by
 			// bouncing the down arrow when they first encounter a vertical slide
@@ -61,10 +61,10 @@
 
 			// Visibility rule for backwards navigation arrows; "faded", "hidden"
 			// or "visible"
-			controlsBackArrows: 'faded',
+			controlsBackArrows: 'hidden',
 
 			// Display a presentation progress bar
-			progress: true,
+			progress: false,
 
 			// Display the page number of the current slide
 			// - true:    Show slide number
@@ -86,7 +86,7 @@
 			// - "all":      Always show the slide number
 			// - "print":    Only when printing to PDF
 			// - "speaker":  Only in the speaker view
-			showSlideNumber: 'all',
+			showSlideNumber: 'print',
 
 			// Use 1 based indexing for # links to match slide number (default is zero
 			// based)
@@ -106,7 +106,7 @@
 			keyboardCondition: null,
 
 			// Enable the slide overview mode
-			overview: true,
+			overview: false,
 
 			// Disables the default reveal.js slide layout so that you can use
 			// custom CSS layout
@@ -119,7 +119,7 @@
 			touch: true,
 
 			// Loop the presentation
-			loop: false,
+			loop: true,
 
 			// Change the presentation direction to be RTL
 			rtl: false,
@@ -192,7 +192,7 @@
 			//           is present on the current slide or fragment
 			// - 1+:     All slides will progress automatically at the given interval
 			// - false:  No auto-sliding, even if data-autoslide is present
-			autoSlide: 0,
+			autoSlide: 5000,
 
 			// Stop auto-sliding after user input
 			autoSlideStoppable: true,
@@ -206,7 +206,7 @@
 			defaultTiming: null,
 
 			// Enable slide navigation via mouse wheel
-			mouseWheel: false,
+			mouseWheel: true,
 
 			// Apply a 3D roll to links on hover
 			rollingLinks: false,
@@ -232,13 +232,13 @@
 			transition: 'slide', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
-			transitionSpeed: 'default', // default/fast/slow
+			transitionSpeed: 'slow', // default/fast/slow
 
 			// Transition style for full page slide backgrounds
 			backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
 
 			// Parallax background image
-			parallaxBackgroundImage: '', // CSS syntax, e.g. "a.jpg"
+			parallaxBackgroundImage: 'https://rindus.de/images/rindus-softwaredevelopment-people-technology-u32670-18-fr.jpg', // CSS syntax, e.g. "a.jpg"
 
 			// Parallax background size
 			parallaxBackgroundSize: '', // CSS syntax, e.g. "3000px 2000px"
